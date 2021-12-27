@@ -10,16 +10,39 @@
   --body-font: "Montserrat"; 
 }
   
-
+/* 
 html {
   font-size: 62.5%;
-  height:  100%;
 }
   
 body {
   font-size: 1.6rem;
-  height:  100%;
-  margin: 0;
+} */
+
+  /* ----------------------------------------------- Colors */
+
+.bg-color-name-title {
+  background-color: var(--prussian-blue);
+}
+  
+.ui-color-menu-home {
+  background-color: var(--honeydew);
+}
+  
+.ui-color-menu-resume {
+  background-color: var(--imperial-red);
+}
+  
+.ui-color-menu-contact {
+  background-color: var(--powder-blue);
+}
+  
+.ui-color-menu-download {
+  background-color: var(--celadon-blue);
+}
+  
+.bg-color-three-reasons {
+  background-color: var(--honeydew);
 }
 
 /* ----------------------------------------------- Special paddings, margins and settings */
@@ -58,31 +81,6 @@ h1, h2, h3, h4 {
   font-weight: 300;
   margin-top: 2.5rem;
   margin-bottom: 4rem;
-}
-  /* ----------------------------------------------- Colors */
-
-.bg-color-name-title {
-  background-color: var(--prussian-blue);
-}
-
-.ui-color-menu-home {
-  background-color: var(--honeydew);
-}
-
-.ui-color-menu-resume {
-  background-color: var(--imperial-red);
-}
-
-.ui-color-menu-contact {
-  background-color: var(--powder-blue);
-}
-
-.ui-color-menu-download {
-  background-color: var(--celadon-blue);
-}
-
-.bg-color-three-reasons {
-  background-color: var(--honeydew);
 }
 
   /* ----------------------------------------------- Heading */
@@ -128,7 +126,7 @@ h1, h2, h3, h4 {
   margin: 0;
 }
 
-#navbar .menucontainer {
+#navbar .menu-container {
   font-size: 0;
 }
 
@@ -229,3 +227,13 @@ footer {
 #footer-details {
   padding: 2rem;
 }
+  /* -----------------------------------------------Three reasons */
+
+  .three-reasons-icon {
+    font-size: 2.6rem;
+    color: var(--prussian-blue);
+  }
+
+  .three-reasons-heading {
+    margin-bottom: 1.5rem;
+  }
